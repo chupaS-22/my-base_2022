@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		
+		<link rel="stylesheet" href="../../../my base_2022_css/bootstrap.css">
+		<link rel="stylesheet" href="../../../my base_2022_css/main.css">
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+	</head>
+		<title>IF ELSE в JAVASCRIPT. Условный оператор "?". Примеры IF ELSE.</title>
+	</head>
+	<body>
+		<wrapper>
+<!--меню-->
+			<nav class="navbar-expand-lg navbar navbar-dark bg-dark">
+				<div class="container">
+					<a class="navbar-brand" href="#">S</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="../../../index.html">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../my base_2022_book/my_base_2022_book-page_1.html">Книги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../../my base_2022_soft/soft.html">Софт</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../../my base_2022_video/2022_video_page-1.html">Видео</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="../../../my base_2022_audio/my_base_2022_audio-page_1.html">Аудио</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Архив</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="../../my_base_2022_notes_page-1.html">Моя записная книжка</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+<!--/меню-->
+
+<!--основной контент-->
+			<div class="content ">
+				<div class="container bg-secondary card text-white">
+					<div class="card-body">
+						<h1 class="text-center h1">IF ELSE в JAVASCRIPT. Условный оператор "?". Примеры IF ELSE.</h1>
+						<hr>
+						<div class="text__red-line h4">
+							<p>Что если выполнение того или иного кода требуются только при определенном условии тут нам на помощь приходит инструкция <span class="bg-warning text-black pmlr-10"> if </span> a помогут ей условный оператор<span class="bg-warning text-black pmlr-10"> ? </span>и блок <span class="bg-warning text-black pmlr-10">else</span>.</p>
+							<p>Разберем сразу на примере.</p>
+							<p>У нас есть переменная <span class="bg-warning text-black pmlr-10">let message = "Привет!!!"</span></p>
+							<p>И мы хотим выводить в консоль эту переменную, только если выполниться некое условие, для этого мы пишем инструкцию.</p>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">JS код</figcaption>
+							<img src="./002_if_else_js-1.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class="h4 card bg-warning text-black">
+							<p>Условие внутри фигурных<strong class="pmlr-10">{...}</strong>скобок выполниться, только в том случае, когда условие внутри крулых<strong class="pmlr-10">(...)</strong> скобок вернет<strong class="pmlr-10">true</strong>, то есть <strong class="pmlr-10">истина</strong>. В данном случае<strong class="pmlr-10">2 > 1</strong>. Это истина.<strong class="pmlr-10">true</strong>. Поэтому код выполниться, и мы увидим в консоли строку <strong class="pmlr-10">Привет!!!</strong>Код сработает.</p>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">Отображение в консоли</figcaption>
+							<img src="./002_if_else_js-2.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class="text__red-line h4">
+							<p>Если же, поменять условие поменять, к примеру на:<span class="bg-warning text-black pmlr-10">2 > 5</span>то оно конечно же не выполниться, так как вернется<span class="bg-warning text-black pmlr-10">false</span>;<span class="bg-warning text-black pmlr-10">2 никак не больше 5</span>, а это значит, что в консоли ничего не отобразиться, строка останется пустой, другими словами - код не выполниться.</p>
+							<hr>
+							<figure>
+								<figcaption class="text-center h4">В качестве<span class="bg-warning text-black pmlr-10">Операндов</span>внутри условия, можно использовать переменные, предварительно присвоив им некие значения:</figcaption>
+								<img src="./002_if_else_js-3.jpg" class="card-img-top" alt="...">
+							</figure>
+							<hr>
+							<h2 class="text-center h2">Логические операторы "&&" и "||"</h2>
+							<div class="text__red-line h4">
+								<p>Код может быть немного сложнее, с использованием логических операторов <span class="bg-warning text-black pmlr-10">&&</span>(и)<span class="bg-warning text-black pmlr-10">||</span>(или)</p>
+							</div>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4"></figcaption>
+							<img src="./002_if_else_js-4.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class=" h4 card bg-warning text-black">
+							<h2 class="text-center h2">Примитивный тип - boolean</h2>
+							<p>Следует помнить, что при сранении некоих условий, нам возращается либо <strong class="pmlr-10">true</strong>, либо <strong class="pmlr-10">false</strong>. А это значит, что мы имееем дело с примитивным "типом" данных <strong class="pmlr-10">boolean</strong>.</p>
+							<p>Всего существует семь примитивных "типов" - <br><strong class="pmlr-10">string</strong><strong class="pmlr-10">number</strong> <strong class="pmlr-10">boolean</strong><strong class="pmlr-10">symbol</strong><strong class="pmlr-10">nuull</strong><strong class="pmlr-10">undefined</strong><strong class="pmlr-10">bigint</strong></p>
+							<p>Более подробно про примитивные "типы", и их методы - читайте в <a target="_blank" href="https://learn.javascript.ru/primitives-methods">здесь</a>.</p>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">Так же следует помнить, что если выражение в скобках - это пустая строка, то вернеться <strong class="pmlr-10">false</strong></figcaption>
+							<img src="./002_if_else_js-5.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">Но стоит лишь добавить хотя бы пробел, и она перестает быть пустой - возращается <strong class="pmlr-10">true</strong>. И код выполниться.</figcaption>
+							<img src="./002_if_else_js-6.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">То же самое происходит, если добавить <strong class="pmlr-10">0</strong></figcaption>
+							<img src="./002_if_else_js-8.jpg" class="card-img-top" alt="...">
+						</figure>
+						<figure>
+							<figcaption class="text-center h4">или <strong class="pmlr-10">1</strong></figcaption>
+							<img src="./002_if_else_js-7.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<h2 class="text-center h2">Необязательный блок "else"</h2>
+						<div class="text__red-line h4">
+							<p>"Необязательный" блок <span class="bg-warning text-black pmlr-10">else</span>дает возможность выполнить вторую часть кода, при условии если первый код не выполнен, и вернул <span class="bg-warning text-black pmlr-10">false</span>.</p>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4"></figcaption>
+							<img src="./002_if_else_js-9.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class="text__red-line h4">
+							<p>для того чтобы проверить несколько условий, мы можем использовать блок <span class="bg-warning text-black pmlr-10">"else if "</span></p>
+						</div>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">Если число 5 больше числа 1. Выполниться условие строка 16.</figcaption>
+							<img src="./002_if_else_js-10.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class="h4 card bg-warning text-black">
+							<p>Блоки <span class="bg-warning text-black pmlr-10">"else"</span>и <strong class="bg-warning text-black pmlr-10">"else if "</strong>- являются необязательными и используются, только при необходимости.</p>
+						</div>
+						<hr>
+						<h2 class="text-center h2">Условный оператор "?"</h2>
+						<div class="text__red-line h4">
+							<p>Чтобы понять как он работает, разберем пример.</p>
+						</div>
+						<hr>
+						<figure>
+							<img src="./002_if_else_js-11.jpg" class="card-img-top" alt="...">
+							<figcaption class="text-center h4">Если условие <span class="bg-warning text-black pmlr-10">if</span>верно. Вернется <span class="bg-warning text-black pmlr-10">true</span>Мы увидим в консоли "Привет! Катя!"</figcaption>
+						</figure>
+						<hr>
+						<div class="text__red-line h4">
+							<p>С помощью условного оператора "?", мы можем переписать это классическое условное ветвление.</p>
+						</div>
+						<hr>
+						<figure>
+							<img src="./002_if_else_js-12.jpg" class="card-img-top" alt="...">
+							<figcaption class="text-center h4">Здесь мы сразу объявляем переменную, и тут же ей присваиваем следующее: если <span class="bg-warning text-black pmlr-10">5 > 1</span>- присваиваем первое значение, если условие не верно - присваиваем второе значение. <span class="bg-warning text-black pmlr-10">:</span> - следует читать как <span class="bg-warning text-black pmlr-10">else</span>.</figcaption>
+						</figure>
+						<hr>
+						<div class="text__red-line h4">
+							<p>Причем скобки <span class="bg-warning text-black pmlr-10">let = messageEnd = (5 > 1)</span>из условия мы можем убрать, так как условный оператор <span class="bg-warning text-black pmlr-10">"?"</span>имеет очень низкий приоритет, и сначала выполняться условие, а уже потом условный оператор</p>
+						</div>
+						<div class="h4 card bg-warning text-black">
+							<p>Следует добавить, что условный оператор <strong class="pmlr-10">"?"</strong>является <strong class="pml-10">тернарным</strong>, это единственный оператор у которого, целых три <strong class="pml-10">операнда</strong>.</p>
+						</div>
+						<hr>
+						<div class="text__red-line h4">
+							<p>С помощью условного оператора <strong class="pmlr-10">"?"</strong>можно также реализовывать более сложную конструкцию включающие в себя блоки <span class="bg-warning text-black pmlr-10">else</span>и <span class="bg-warning text-black pmlr-10">else if</span>.</p>
+							<p>Такая реализация менее читабельна чем классическая, поэтому советуют использовать все таки классическую реализацию, по этой же причине не стоит использовать условный оператор как полный заменитель <span class="bg-warning text-black pmlr-10">if else</span>.</p>
+						</div>
+						<figure>
+							<figcaption class="text-center h4">С использованием условного оператора <strong class="pmlr-10">"?"</strong></figcaption>
+							<img src="./002_if_else_js-14.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<figure>
+							<figcaption class="text-center h4">С использованием рекомендуемых операторов.</figcaption>
+							<img src="./002_if_else_js-15.jpg" class="card-img-top" alt="...">
+						</figure>
+						<hr>
+						<div class="text__red-line h4">
+							<p>Посмотреть урок по теме можно <a class="text-white-50" target="_blank" href="https://cloud.mail.ru/public/Rqvd/iX1PmFtcb"> здесь </a>.</p>
+							<p>Ссылка на весь видео-курс. Уроки JavaScript с нуля 2020. <a class="text-white-50" target="_blank" href="https://cloud.mail.ru/public/64zK/FqAabuj58"> здесь</a> .</p>
+						</div>
+					</div>
+				</div>
+				<hr>
+<!--кнопки перехода по страницам-->
+				<div class="container">
+					<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+						<div class="btn-group me-2 " role="group" aria-label="First group">
+							<button type="button" class="btn btn-secondary active" aria-current="page">
+								<a class="text-white" href="../../my_base_2022_notes_page-1.html">Назад</a>
+							</button>
+<!-- 							<button type="button" class="btn btn-secondary">2</button>
+							<button type="button" class="btn btn-secondary">3</button>
+							<button type="button" class="btn btn-secondary">4</button>
+							<button type="button" class="btn btn-secondary">5</button> -->
+						</div>
+					</div>
+				</div>
+<!--/кнопки перехода по страницам-->
+			</div>
+<hr>
+
+<!--/основной контент-->
+<hr>
+
+<!--подвал-->
+			<div class="">
+				<footer class="py-3 my-4 bg-dark">
+					<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+						<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+						<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+					</ul>
+					<p class="text-center text-muted">&copy; 2022 San4es, </p>
+					<p class="text-center text-muted"><a href="mailto:web22designer@yandex.ru">web22designer@yandex.ru</a></p>
+				</footer>
+			</div>
+<!--подвал-->
+		</wrapper>
+
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+		<!-- Option 2: Separate Popper and Bootstrap JS -->
+		<!--
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+		-->
+	</body>
+</html>

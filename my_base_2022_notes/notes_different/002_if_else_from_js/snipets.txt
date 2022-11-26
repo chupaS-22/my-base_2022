@@ -1,0 +1,67 @@
+
+
+Мои снипеты
+
+===
+Для страницы "Моя записная книжка"
+
+	"favicon": {
+      "prefix": "favicon",
+      "body": [
+         "<link href=\"favicon.ico\" rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\"/>"
+      ],
+      "description": "Подключение фавикона"
+   },
+
+//
+	"html-1": {
+		"prefix": "p1",
+		"body": [
+			"<div class=\"text__red-line h4\">\n\t<p>$1</p>\n\t<p></p>\n</div>"
+		],
+		"description": "добавляем обычный параграф"
+	},
+
+//
+	"html-2": {
+		"prefix": "p2",
+		"body": [
+			"<div class=\"h4 card bg-warning text-black\">\n\t<p>$1</p>\n\t<p></p>\n</div>"
+		],
+		"description": "параграф выделенный желтым"
+	},
+
+//
+	"im1":{
+		"prefix": "im1",
+		"body": [
+			"<figure>\n\t<figcaption class=\"text-center h4\"></figcaption>\n\t<img src=\"#\" class=\"card-img-top\" alt=\"...\">\n</figure>"
+		],
+		"description": "jpg-картинка с описанием"
+	}
+
+//
+	"span-1":{
+		"prefix": "sp1",
+		"body": [
+			"<span class=\"bg-warning text-black pmlr-10\">$1</span>",
+		],
+		"description": "спан желтого цвета"
+	},
+
+//
+	"strong-1":{
+		"prefix": "st1",
+		"body": [ 
+			"<strong class=\"pmlr-10\">$1</strong>",
+	]
+	"description": "выделение текста в (желтых) параграфах"
+	}, 
+
+}
+
+
+
+
+
+

@@ -29,7 +29,7 @@ img {
 html,
 body {
 	height: 100%;
-	
+	background-color: #4b4b4b;
 }
 html {
 	/* по умолчанию */
@@ -59,4 +59,18 @@ body {
 	margin-top: 20px;
 }
 
+/* красная строка */
+.text__red-line {
+	text-indent: 30px;
+}
 
+/* Стилизируем выделение отдельных слов текста, 
+добавляем внутренние и внешние отступы, применять 
+можно совместо с классом из bootstrap "bg-warning text-black" */
+.pmlr-10 {
+	padding: 0 10px;
+	margin: 0 10px;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
