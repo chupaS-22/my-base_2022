@@ -7,11 +7,11 @@
 
 		<!-- Bootstrap CSS -->
 		
-		<link rel="stylesheet" href="../../../my base_2022_css/bootstrap.css">
-		<link rel="stylesheet" href="../../../my base_2022_css/main.css">
+		<link rel="stylesheet" href="../../my base_2022_css/bootstrap.css">
+		<link rel="stylesheet" href="../../my base_2022_css/main.css">
 		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
 	</head>
-		<title>Циклы while и for.</title>
+		<title>Циклы while и for. Совсем немного о переменных. </title>
 	</head>
 	<body>
 		<wrapper>
@@ -56,7 +56,7 @@
 				<div class="content">
 					<div class="container bg-secondary card text-white">
 						<div class="card-body">
-							<h1 class="text-center h1">Циклы while и for</h1>
+							<h1 class="text-center h1">Циклы while и for. Совсем немного о переменных.</h1>
 							<hr>
 							<div class="text__red-line h4">
 								<p>Поговорим о циклах <span class="bg-warning text-black pmlr-10">"for"</span> и <span class="bg-warning text-black pmlr-10">"while"</span>. Что же такое цикл? Дело в том, что в процессе написания программы нам часто понадобится выполнять одни и те же действия множество раз, например перебрать цифры от <span class="bg-warning text-black pmlr-10">0 до 5</span>.</p>
@@ -95,9 +95,70 @@
 							</div>
 							<hr>
 							<h2 class="h2 text-center">Цикл «for»</h2>
+							<figure>
+								<figcaption class="text-center h4">Синтаксис</figcaption>
+								<img src="./notes_js-img/02_while_end_for-05.jpg" class="card-img-top" alt="...">
+							</figure>
 							<div class="text__red-line h4">
-								<p>Описан в другой статье, ссылка на источник ниже.</p>
+								<p>Цикл <span class="bg-warning text-black pmlr-10">for</span> позволяет вводить условия непосредственно в сам цикл.</p>
 							</div>
+							<div class="h4 card bg-warning text-black">
+								<p>Условия пишем в одну строку, через точку с запятой <strong class="pmlr-10">" ; "</strong>. Сначала указываем переменную, или назначаем прямо там, потом диапазон поиска чисел (в нашем случае это все числа меньше 5, затем - сколько едениц нужно добавлять после каждой итерации ( в нашем случае +1).</p>
+								<p>Программа снова завершит работу на числе 5, так как <strong class="pmlr-10">5 < 5</strong> вернет <strong class="pmlr-10">"false"</strong>.</p>
+							</div>
+							<hr>
+							<figure>
+								<figcaption class="text-center h4"></figcaption>
+								<img src="./notes_js-img/02_while_end_for-03.jpg" class="card-img-top" alt="...">
+							</figure>
+							<div class="h4 card bg-warning text-black">
+								<p>Важно: если переменная была рождена внутри цикла, он не будет видна вне его, и наоборот - переменная рожденная, вне цикла, может использоваться и переназначаться как в цикле, так и вне его.</p>
+							</div>
+							<figure>
+								<figcaption class="text-center h4">Правильно</figcaption>
+								<img src="./notes_js-img/02_while_end_for-04.jpg" class="card-img-top" alt="...">
+							</figure>
+							<figure>
+								<figcaption class="text-center h4">Неправильно. Как видно, переменная внутри цикла видна, а вне его выдает ошибку.</figcaption>
+								<img src="./notes_js-img/02_while_end_for-06.jpg" class="card-img-top" alt="...">
+							</figure>
+							<div class="h4 card bg-warning text-black">
+								<p>И еще, имена переменных, в цикле, и вне его, находяться в разных "коробках", и поэтому могут иметь одинаковые имена.</p>
+							</div>
+							<figure>
+								<figcaption class="text-center h4">Переменная <span class="bg-warning text-black pmlr-10">let num = 555;</span>не имеет ничего общего с переменной цикла <span class="bg-warning text-black pmlr-10">for (let num = 1; num < 4; num++)</span>, так как находяться в разных "коробках".</figcaption>
+								<img src="./notes_js-img/02_while_end_for-07.jpg" class="card-img-top" alt="...">
+							</figure>
+							<hr>
+							<h2 class="h2 text-center">Прекращение цикла досрочно.</h2>
+							<figure>
+								<img src="./notes_js-img/02_while_end_for-08.jpg" class="card-img-top" alt="...">
+								<figcaption class="text-center h4">Используем дерективу <span class="bg-warning text-black pmlr-10">break</span>.</figcaption>
+							</figure>
+							<hr>
+							<h2 class="h2 text-center">Прекращение части "тела цикла"  досрочно.</h2>
+							<figure>
+								<figcaption class="text-center h4">Деректива <span class="bg-warning text-black pmlr-10">continue</span> прерывает "тело цикла, и переходит на следующую итерацию. В результате, в консоли не отобразиться число 2."</figcaption>
+								<img src="./notes_js-img/02_while_end_for-09.jpg" class="card-img-top" alt="...">
+							</figure>
+							<div class="h4 card bg-warning text-black">
+								<p>Дерективы <strong class="pmlr-10">break</strong>и <strong class="pmlr-10">continue</strong>нельзя применять вместе с условным оператором <strong class="pmlr-10">?</strong>.</p>
+							</div>
+							<hr>
+							<h2 class="h2 text-center">Метки.</h2>
+							<hr>
+							<figure>
+								<figcaption class="text-center h4"></figcaption>
+								<img src="./notes_js-img/02_while_end_for-10.jpg" class="card-img-top" alt="...">
+							</figure>
+							<div class="text__red-line h4">
+								<p>Родительскому циклу, присваиваем некую метку <span class="bg-warning text-black pmlr-10">firstFor</span>далее внутри дочернего цикла, при определенном условии <span class="bg-warning text-black pmlr-10">if (size == 2)</span> пишем <span class="bg-warning text-black pmlr-10">break firstFor;</span>таким образом остановиться не текущий (дочерний) цикл, а именно тот родитель у которого есть метка <span class="bg-warning text-black pmlr-10">firstFor</span>.</p>
+								<p>Деректива <span class="bg-warning text-black pmlr-10">continue</span>работает точно также.</p>
+							</div>
+							<figure>
+								<figcaption class="text-center h4"></figcaption>
+								<img src="./notes_js-img/02_while_end_for-11.jpg" class="card-img-top" alt="...">
+							</figure>
 							<hr>
 							<h2 class="h2 text-center">Что нужно запомнить.</h2>
 							<div class="h4 card bg-warning text-black">
