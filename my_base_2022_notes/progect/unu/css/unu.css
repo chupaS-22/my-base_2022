@@ -1,9 +1,9 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	font-size: 15px;
-	font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 h1,
@@ -12,284 +12,284 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 ul li {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* ====== */
 .header {
-	min-height: 370px;
-	background-image: url(../unu_img/bg1.jpg);
+  min-height: 370px;
+  background-image: url(../unu_img/bg1.jpg);
 }
 .blockone {
 }
 .in {
-	color: #fff;
-	padding: 30px 0 63px;
-	max-width: 1070px;
-	margin: 0 auto;
+  color: #fff;
+  padding: 30px 0 63px;
+  max-width: 1070px;
+  margin: 0 auto;
 }
 .dostup {
-	display: flex;
-	position: relative;
-	font-size: 15px;
+  display: flex;
+  position: relative;
+  font-size: 15px;
 }
 .in__user {
-	content: "";
-	background-image: url(../unu_img/locked.svg);
-	background-repeat: no-repeat;
-	height: 14px;
-	margin-right: 22px;
-	padding-left: 19px;
-	top: 2px;
-	left: 0;
+  content: "";
+  background-image: url(../unu_img/locked.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  margin-right: 22px;
+  padding-left: 19px;
+  top: 2px;
+  left: 0;
 }
 .in__user a:hover {
-	color: #d5cfcf;
+  color: #d5cfcf;
 }
 .in__reg {
-	content: "";
-	background-image: url(../unu_img/locked.svg);
-	background-repeat: no-repeat;
-	height: 14px;
-	padding-left: 19px;
-	top: 2px;
-	left: 0;
+  content: "";
+  background-image: url(../unu_img/locked.svg);
+  background-repeat: no-repeat;
+  height: 14px;
+  padding-left: 19px;
+  top: 2px;
+  left: 0;
 }
 .in__reg a:hover {
-	color: #d5cfcf;
+  color: #d5cfcf;
 }
 .head__info {
-	display: flex;
+  display: flex;
 }
 .in__logo {
-	width: 260px;
-	margin-top: 30px;
-	padding-right: 30px;
+  width: 260px;
+  margin-top: 30px;
+  padding-right: 30px;
 }
 .in__micro {
-	margin-top: 22px;
+  margin-top: 22px;
 }
 .micro__title {
-	font-size: 25px;
-	font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 .micro__subtitle {
-	margin-top: 15px;
-	font-size: 18px;
-	line-height: 1.2;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.2;
 }
 .micro__button {
-	margin-top: 23px;
+  margin-top: 23px;
 }
 
 .btn__withe {
-	background-color: #323141;
-	border: 4px solid #fff;
-	border-radius: 30px;
-	padding: 7px 18px;
-	margin-right: 10px;
+  background-color: #323141;
+  border: 4px solid #fff;
+  border-radius: 30px;
+  padding: 7px 18px;
+  margin-right: 10px;
 }
 .btn__withe:hover {
-	background-color: #fff;
+  background-color: #fff;
 }
 .btn__withe a {
-	text-align: center;
-	color: #fff;
-	font-size: 18px;
-	font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
 }
 .btn__withe a:hover {
-	color: #6f63cf;
+  color: #6f63cf;
 }
 .btn__purple {
-	background-color: #373646;
-	border: 4px solid #6f63cf;
-	border-radius: 30px;
-	padding: 7px 18px;
+  background-color: #373646;
+  border: 4px solid #6f63cf;
+  border-radius: 30px;
+  padding: 7px 18px;
 }
 .btn__purple:hover {
-	background-color: #6f63cf;
+  background-color: #6f63cf;
 }
 .btn__purple a {
-	color: #6f63cf;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+  color: #6f63cf;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 .btn__purple a:hover {
-	color: #fff;
+  color: #fff;
 }
 .spisok {
-	margin: 0;
-	padding: 9px 0 0 27px;
+  margin: 0;
+  padding: 9px 0 0 27px;
 }
 .spisok__block {
 }
 .spisok_title {
 }
 .spisok_title li {
-	position: relative;
-	padding: 2px 0 0 30px;
-	font-size: 16px;
-	line-height: 1.2;
-	margin-top: 28px;
+  position: relative;
+  padding: 2px 0 0 30px;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 28px;
 }
 .spisok_title li::before {
-	position: absolute;
-	content: "";
-	background-image: url(../unu_img/check_circle.svg);
-	background-repeat: no-repeat;
-	height: 23px;
-	width: 23px;
-	top: 4px;
-	left: 0;
+  position: absolute;
+  content: "";
+  background-image: url(../unu_img/check_circle.svg);
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 23px;
+  top: 4px;
+  left: 0;
 }
 
 /* ========= */
 .inherit {
-	background-color: #5c28b3;
-	color: #fff;
-	padding: 30px 0 30px 0;
+  background-color: #5c28b3;
+  color: #fff;
+  padding: 30px 0 30px 0;
 }
 .inherit__info {
-	display: flex;
-	justify-content: space-around;
-	max-width: 1070px;
-	margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1070px;
+  margin: 0 auto;
 }
 .inherit__block {
-	display: flex;
+  display: flex;
 
-	height: 100%;
+  height: 100%;
 }
 .inherit__pic {
 }
 .inherit__card {
 }
 .inherit__title {
-	font-size: 30px;
+  font-size: 30px;
 }
 .inherit__subtitle {
-	font-size: 15px;
+  font-size: 15px;
 }
 .one {
-	max-width: 100px;
+  max-width: 100px;
 }
 .two {
-	max-width: 70px;
+  max-width: 70px;
 }
 .three {
-	max-width: 82px;
+  max-width: 82px;
 }
 
 /* =============== */
 .section3 {
-	width: 1070px;
-	margin: 0 auto;
-	padding: 23px 0 53px 0;
+  width: 1070px;
+  margin: 0 auto;
+  padding: 23px 0 53px 0;
 }
 .section3__content {
-	display: flex;
+  display: flex;
 
-	height: 100%;
+  height: 100%;
 }
 .section3__block1 {
 }
 .block1__pi {
-	width: 470px;
+  width: 470px;
 }
 .section3__block2 {
-	padding: 100px 0px 0 0;
+  padding: 100px 0px 0 0;
 }
 .block2_title {
-	font-size: 23px;
-	font-weight: 700;
-	color: #282830;
-	padding-left: 40px;
+  font-size: 23px;
+  font-weight: 700;
+  color: #282830;
+  padding-left: 40px;
 }
 .block2_info {
 }
 .block2_items {
-	counter-reset: item 0; /* Инициируем счетчик */
+  counter-reset: item 0; /* Инициируем счетчик */
 }
 .block2_items li {
-	position: relative;
-	padding-left: 50px;
-	margin-top: 20px;
-	font-size: 20px;
+  position: relative;
+  padding-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 .block2_items li::before {
-	content: counter(item); /* Выводим текст перед содержимым тега */
-	counter-increment: item 1; /* Указываем идентификатор счетчика */
-	display: flex;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: center;
-	border: solid 1px #5c28b3;
-	border-radius: 50%;
-	font-size: 18px;
-	font-weight: 700;
-	color: #5c28b3;
-	position: absolute;
-	left: 0;
-	top: -5px;
-	width: 35px;
-	height: 35px;
-	box-sizing: border-box;
+  content: counter(item); /* Выводим текст перед содержимым тега */
+  counter-increment: item 1; /* Указываем идентификатор счетчика */
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  border: solid 1px #5c28b3;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #5c28b3;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
 }
 
 .block2_btn {
-	margin: 40px 0 0 40px;
+  margin: 40px 0 0 40px;
 }
 .section3__btn {
-	text-align: center;
-	background-color: #30303f;
-	height: 44px;
-	border-top-left-radius: 30px;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
+  text-align: center;
+  background-color: #30303f;
+  height: 44px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 .section3__link {
-	padding: 0 28px;
-	font-size: 18px;
-	font-weight: 700;
-	color: #ffffff;
+  padding: 0 28px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .section3__btn:hover {
-	background-color: #4c4c60;
+  background-color: #4c4c60;
 }
 
 /* ===================== */
 
 .section4 {
-	background-color: #eff3ff;
-	padding-bottom: 33px;
+  background-color: #eff3ff;
+  padding-bottom: 33px;
 }
 .section4_content {
-	display: flex;
-	justify-content: center;
-	max-width: 1070px;
-	margin: 0 auto;
-	padding-top: 33px;
+  display: flex;
+  justify-content: center;
+  max-width: 1070px;
+  margin: 0 auto;
+  padding-top: 33px;
 }
 .section4_blockleft {
 }
 .blockleft_title {
-	font-size: 38px;
-	color: #282830;
-	padding-left: 50px;
+  font-size: 38px;
+  color: #282830;
+  padding-left: 50px;
 }
 .blockleft__body {
 }
@@ -298,45 +298,107 @@ ul li {
 .section4_rignt {
 }
 .blockrignt_title {
-	font-size: 38px;
-	color: #282830;
-	padding-left: 50px;
+  font-size: 38px;
+  color: #282830;
+  padding-left: 50px;
 }
 .blockrignt__body {
 }
 /* ================= */
 
 .section5 {
-	padding: 50px 0 35px;
-	background-color: #5c28b3;
+  padding: 50px 0 35px;
+  background-color: #5c28b3;
 }
 .section5_content {
-	max-width: 1070px;
-	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-
+  max-width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 .section5__btn {
-	
-	box-shadow: rgb(151 191 13 / 45%) 0 9px 34px;
-	background-color: rgb(151, 191, 13);
-	margin: 0 auto;
-	padding: 12px 20px;
-	border-radius: 40px;
-	font-size: 24px;
-	font-weight: 700;
-	color: #ffffff;
+  box-shadow: rgb(151 191 13 / 45%) 0 9px 34px;
+  background-color: rgb(151, 191, 13);
+  margin: 0 auto;
+  padding: 12px 20px;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
 }
 .section5__bt {
-	margin: 0 auto;
-	padding-top: 15px;
-	font-size: 15px;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 15px;
 }
 /* ====================== */
 
-
 footer {
-	background-color: #30303F;
-	min-height: 150px;
+  margin: 0;
+  background-color: #30303f;
+  min-height: 150px;
+  padding-bottom: 20px;
+}
+
+.section6 {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 37px 44px;
+  display: flex;
+  justify-content: space-around;
+}
+.blockleft {
+  display: flex;
+}
+.blockleft__pic {
+  width: 71px;
+}
+.blockleft__info {
+}
+.blockleft__info ul {
+  margin: 0;
+}
+.blockleft__info ul li {
+  line-height: 1.5;
+}
+.blockrignt {
+}
+.blockrignt__social {
+  
+}
+.blockrignt__social ul {
+  display: flex;
+}
+.blockrignt__social ul li {
+  margin-left: 20px;
+  
+
+}
+
+.telega {
+  height: 20px;
+  width: 20px;
+}
+.telega img {
+  width: 20px;
+}
+.vk {
+}
+.vk img {
+  width: 20px;
+}
+.twiter {
+}
+.twiter img {
+  width: 20px;
+}
+
+.prava {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+.prava p {
+  margin: 0;
+  color: #656570;
+  font-size: 12px;
 }
