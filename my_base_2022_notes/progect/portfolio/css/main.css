@@ -1,0 +1,48 @@
+
+
+
+
+/* Собственные стили */
+/* 1 */
+/* блок с девушкой */
+.feedback {
+	background-color: #888afe;
+	padding: 0;
+}
+
+.call {
+	position: relative;
+	height: 75vh;
+}
+.call__block {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.block_img {
+	width: auto;
+}
+/* /1 */
+
+
+
+
+/* переопределения */
+
+.bg-primary {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

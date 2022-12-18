@@ -1,0 +1,45 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: antiquewhite;
+	font-weight: normal;
+	background-color: grey;
+}
+li {
+	list-style-type: none;
+}
+/* обнуление */
+
+
+.head {
+	background-color: black;
+}
+.head_nav {
+}
+.menu-container {
+	width: 640px;
+	margin: 0 auto;
+}
+.head_menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.head_item {
+	
+	
+}
+.list {
+	text-decoration: none;
+	color: #c1dbdb;
+	padding: 10px 25px;
+	background-color: black;
+	border: 3px solid #c1dbdb;
+	border-radius: 25px;
+}
+.list:hover {
+	background-color: grey;
+}
